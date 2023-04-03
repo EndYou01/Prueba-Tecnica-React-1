@@ -1,0 +1,52 @@
+
+.header{
+    width: 100vw;
+}
+
+.row{
+    height: 70px;
+
+    &_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &_blue{
+        background: linear-gradient(rgb(0, 147, 255), $blue-color);
+    }
+
+    &_gray{
+        background: $gray-color;
+
+        h2{
+            padding-top: 20px;
+        }
+    }
+}
+
+
+.login_button{
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.freeTrial_button{
+    background: $gray-color;
+    color: white;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+.demo_streaming h1{
+    cursor: pointer;
+
+    span{
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    
+}
