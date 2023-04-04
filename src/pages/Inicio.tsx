@@ -13,7 +13,7 @@ export const Inicio = () => {
                 onClick={()=> navigate('series')}
             >
                 <div className="inicio_card_img">
-                    <h2>Series</h2>
+                    <h2 className="color_white">Series</h2>
                 </div>
 
                 <p>Popular Series</p>
@@ -24,7 +24,7 @@ export const Inicio = () => {
                 onClick={()=> navigate('peliculas')}
             >
                 <div className="inicio_card_img">
-                    <h2>Movies</h2>
+                    <h2 className="color_white">Movies</h2>
                 </div>
 
                 <p>Popular Movies</p>

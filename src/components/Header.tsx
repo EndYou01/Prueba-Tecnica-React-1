@@ -14,7 +14,7 @@ export const Header = () => {
                         className="demo_streaming"
                         onClick={()=> navigate('')}
                     >
-                        <h1><span>Demo</span> Streaming</h1>
+                        <h1 className="color_white"><span>Demo</span> Streaming</h1>
                     </div>
 
                     <div className="header_buttons_container">
@@ -26,7 +26,7 @@ export const Header = () => {
 
             <div className="row row_gray">
                 <div className="container ">
-                    <h2>Popular Titles</h2>
+                    <h2 className="color_white">Popular Titles</h2>
                 </div>
             </div>
 
