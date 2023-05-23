@@ -10,7 +10,6 @@ export const getCardByProgramType = ({programType}: any) => {
         throw new Error(`ProgramType "${programType}" no es correcto`)
     }
 
-
     return (
         entries.filter( card => card.programType === programType)
     )
